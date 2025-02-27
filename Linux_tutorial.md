@@ -77,7 +77,7 @@ Vamos a aprender a utilizar los comando más básiscos de linux para quepodamos 
 ## pwd
 pwd (print working directory) es el comando que nos permite conocer la ruta en la que nos encontramos. 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/e01e6b7a-ed03-4c56-8ece-4c2b00626572" width="500">
+    <img src="https://github.com/user-attachments/assets/62a287a3-6006-4918-8368-60ddae9976c2" width="500">
 </p>
 
 
