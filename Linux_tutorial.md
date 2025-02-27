@@ -20,7 +20,7 @@ Tienes que dirigirte al buscador de window escribir Windows Powershell para entr
 ```bash
 wsl --install
 ```
-Esto te instalará el subsistema para windows. Una vez terminada la inslación debes reiniciar la máquina personal. Posteriormente abres de nuevo el powershell de windows y escribe:
+Esto te instalará el subsistema para windows. Una vez terminada la instalación debes reiniciar la máquina personal. Posteriormente abres de nuevo el powershell de windows y escribe:
 
 ```
 wsl
