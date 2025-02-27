@@ -135,7 +135,7 @@ En linux es importante movernos entre directorios, por lo que nosotros podemos m
 
 La **Ruta absoluta** es una dirección completa y específica que indica la ubicación exacta de un archivo o directorio. Las rutas absolutas siempre comienzan desde el directorio raíz, que se representa con una barra diagonal hacia adelante ("/") y termina con el destino final. **No importa desde qué ubicación estés trabajando, una ruta absoluta siempre te llevará a la misma ubicación que proporcionas**.
 
-Un ejemplo de ruta absoluta de la imagen de abajo es:
+Un ejemplo de ruta absoluta para llegar al directortio llamado `work` de la imagen de abajo es:
 
  ```bash 
  /home/peter/work
