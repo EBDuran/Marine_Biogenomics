@@ -37,7 +37,30 @@ Te descargará las actualizaciones y una vez terminadas ya puedes entrar a la ap
 **¿Por qué utilizamos linux en bioinformática?**. En primer lugar la mayoría de las herramnientas bioinformáticas fueron diseñadas y optimizadas en Linux, ejemplos como BWA, Bowtie, entre otras herramientas. Segundo, Linux es seguro por los permisos y control de accesos que se cnfiguran  dentro del sistema. Tercero, es estable por lo que no hay necesidad de estar actualizando el sistema operativo periódicamente como en windows. Finalmente, es de código abierto por lo que disminuye costos donde no hay que pagar por por los programas, aumenta la oportuinidad de colaboración y hace que cada herramienta sea trasnparete  ya que podemos ver el código fuente. 
 En linux vamos a estar trabajando con línea de comandos ya que no hay interfaces gráficas para varias de las herramientas que se utilizan en bioinformática. Una linea de comandos permite dar instrucciones específicas para realizar tareas, esto es importante poque podemos tener más control de las acciones que ejecutamos, especialmente cuando estamos manejando una gran cantidad de datos. 
 
+## Terminal
+La terminal es una interfaz de línea de comandos que permite a los usuarios interactuar con el sistema operativo mediante la introducción de comandos de texto.
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/4572be39-4f92-4bcb-b7a9-7b89991b929d" width="500">
+</p>
 ## Prompt 
 
-El promt es es el texto que aparece en la consola para indicar que el sistema está listo para recibir un comando como se muestra la siguiente imagen:
+El promt es es el texto que aparece en la consola para indicar que el sistema está listo para recibir una línea de comando:
+```bash
+ebduran@LAPTOP-IFTA3VOI:~$
+```
+1.- *ebduran* es el usurario
+2.- *@LAPTOP-IFTA3VOI* es el nombre de la PC o dirección IP de algún servidor
+2.- *~$*  el directorio actual en el que nos encontramos, normalmente es el home 
+
+## Organización de Unix o linux 
+El sistema operativo de Linux tiene una estructura y organización única como se muestra en la imagen siguiente:
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/c614825f-f2da-4d58-b515-32c7583473a2" width="500">
+</p>
+
+
+
+
 
