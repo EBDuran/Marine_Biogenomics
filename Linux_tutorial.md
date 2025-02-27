@@ -133,7 +133,7 @@ En linux es importante movernos entre directorios, por lo que nosotros podemos m
 1. Ruta absoluta
 2. Ruta relativa
 
-La **Ruta absoluta** es una dirección completa y específica que indica la ubicación exacta de un archivo o directorio. Las rutas absolutas siempre comienzan desde el directorio raíz, que se representa con una barra diagonal hacia adelante ("/") y termina con el destino final. **No importa desde qué ubicación estés trabajando, una ruta absoluta siempre te llevará a la misma ubicación que proporcionas**.
+La **Ruta absoluta** es una dirección completa y específica que indica la ubicación exacta de un archivo o directorio. Las rutas absolutas siempre comienzan desde el directorio raíz, que se representa con una barra diagonal hacia adelante `/` y termina con el destino final. **No importa desde qué ubicación estés trabajando, una ruta absoluta siempre te llevará a la misma ubicación que proporcionas**.
 
 Un ejemplo de ruta absoluta para llegar al directortio llamado `work` de la imagen de abajo es:
 
@@ -145,14 +145,25 @@ Un ejemplo de ruta absoluta para llegar al directortio llamado `work` de la imag
     <img src="https://github.com/user-attachments/assets/9a5fa948-7938-47ba-bee2-229129e7b58a" width="500">
 </p> 
 
-Una **ruta relativa** indica la ubicación de un archivo o directorio **en relación con el directorio actual en el que te encuentras trabajando**.
+Una **ruta relativa** indica la ubicación de un archivo o directorio **en relación con el directorio actual en el que te encuentras trabajando**. Adiferencia de una ruta absoluta, que comienza desde el directorio raíz `/`, una ruta relativa comienza desde la ubicación actual representada con `.` o desde el directorio padre o superior `..`, si quieres moverte hacia una carpeta superior del padre de done te encuetras ubicado, debes utilizar los seaparadores  de directorios``../..``. En la imagen seiguiente se muestran las rutas relativas desde el directorio ``peter``
+
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/7440ea92-3de9-4cfc-992e-dd9097e4716c" width="500">
 </p> 
 
+Si quiere ir desde  ``peter`` a home el comando es:
+
+``bash
+..
+``
+si quieres ir dese ``peter`` que es ``.`` a papers es:
+
+``bash
+./
+``
 ## cd
-**`cd`** (change directory) este comando nos permite camboar de directorios. Puedes moverte a un directorrio 
+**`cd`** (change directory) este comando nos permite camboar de directorios. Puedes moverte a un directorio 
 
 
    
