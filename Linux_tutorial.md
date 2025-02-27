@@ -153,6 +153,7 @@ Una **ruta relativa** indica la ubicación de un archivo o directorio **en relac
 </p> 
 
 Si quieres ir desde  ``peter`` a ``home`` el comando es:
+
 ``bash
 ..
 ``
