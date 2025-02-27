@@ -116,15 +116,15 @@ ven las diferencias entre -l y -lh?
 
 ## mkdir (make directory)
 
-**`mkdir`**  es un comando que nos permite crear directorios, como cuando en windows creamos carpetas. Este comando lo vamos a utilizar mucho para organizar todos nuestros archivos. Para crear un directorio debemos poner el comando un espacio y el nombre del direcotrio a crear
+**`mkdir`**  es un comando que nos permite crear directorios, como cuando en windows creamos carpetas. Este comando lo vamos a utilizar mucho para organizar todos nuestros archivos. Para crear un directorio debemos poner el comando un espacio y el nombre del direcotrio a crear, hagámoslo para crear un directorio que se llame `directory01`
 
 ```bash 
-ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory01
+mkdir directory01
 ```
 En este caso creamos el directorio ***directory01***, si queremos hacer varios directorios, cada uno de ellos debe estar separado por espacios:
 
 ```bash
-ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory02 directory03
+mkdir directory02 directory03
 ```
 Si hacemos un list ¿cúantos directorios tenemos?
 
@@ -173,7 +173,7 @@ cd directory01
 **Consejo**: siempre que vayas entrar a una carpeta en lugar de escribirla completamente, escribe las primeras letras y utiliza la tecla `TAB` para autocompletar el nombre. 
 
 
-Si nos queremos regresar al directorio de mi usuario debemos utilizar `cd ..`  ya que es el directorio superior a directory01 o tambien puedes escribir la ruta absolita `cd /home/ebduran`.
+Si nos queremos regresar al directorio de mi usuario debemos utilizar `cd ..`  ya que es el directorio superior a directory01 o tambien puedes escribir la ruta absoluta `cd /home/ebduran`.
 
 Otros atajos que son importantes:
 
@@ -186,11 +186,30 @@ El comando `mv` nos ayuda a mover archivos de un directorio a otro. Tambien sirv
 Para mover los archivos debemos escribir `mv`  epacio `el documento a mover`, espacio y  el directorio al cual quieres mover, ya sea con ruta absoluta o relativa.
 
 1. Para renombrar
- Vamos a renombrar el directorio `directory01` con el nombre de `reference_genome`, como ven en lugar de espacios separa las palabras con `_`
+ Vamos a renombrar el directorio `directory01` con el nombre de `reference_genome`, como ven en lugar de espacios separa las palabras con `_`.
 
 ```bash
 mv directory01 reference_genome
 ```
+
+## wget (World Wide Web" y "get")
+
+`wget` es un comando que nos permite descargar archivos de la web utilizando un URL(Uniform Resource Locators). Este comando es útil porque podemos descargar las secuencias desde NCBI. Vamos a descargar la secuencia del genoma de referencia de un simbionte coralino en el directorio que creamos llamada `reference_genome`.
+Recuerden ver donde estamos (ya lo vimos) y como entrar al directorio `reference_genome`.
+
+```bash
+wget wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/001/939/145/GCA_001939145.1_ASM193914v1/GCA_001939145.1_ASM193914v1_genomic.fna.gz
+```
+Esto tardará unos minutos. Si todo salió bien tendremos el genoma de referencia de *Symbiodinium microadriaticum* desde NCBI. Una vez descargado vean cual es el tamaño del archivo (ya lo vimos anteriormente).
+
+Repitamos el comando `wget` pero esta vez vamos a descargar otro genoma de referencia de *Cladocopium goreaui*, también vamo a utilizar el argumento `-0` que nos permite cambiar el nombre del archivo descargado, por lo que vamos a cambiar el nombre a `cladocopium_genome.fna.gz ` 
+
+```bash
+wget -O cladocopium_genome.fna.gz https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/947/184/155/GCA_947184155.2_Cgoreaui_SCF055-01_v2.1/GCA_947184155.2_Cgoreaui_SCF055-01_v2.1_genomic.fna.gz
+```
+
+
+
 
 
 
