@@ -142,7 +142,7 @@ Un ejemplo de ruta absoluta de la imagen de abajo es:
 ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/09fb1732-7e12-46a0-9704-86fec6def9d1" width="500">
+    <img src="https://github.com/user-attachments/assets/9a5fa948-7938-47ba-bee2-229129e7b58a" width="500">
 </p> 
 
 
