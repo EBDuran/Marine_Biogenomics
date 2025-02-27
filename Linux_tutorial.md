@@ -152,16 +152,17 @@ Una **ruta relativa** indica la ubicación de un archivo o directorio **en relac
     <img src="https://github.com/user-attachments/assets/7440ea92-3de9-4cfc-992e-dd9097e4716c" width="500">
 </p> 
 
-Si quieres ir desde  ``peter`` a home el comando es:
-
+Si quieres ir desde  ``peter`` a ``home`` el comando es:
 ``bash
 ..
 ``
+
 si quieres ir desde ``peter`` que es ``.`` a papers es:
 
 ``bash
 ./
 ``
+
 ## cd
 **`cd`** (change directory) este comando nos permite camboar de directorios. Puedes moverte a un directorio 
 
