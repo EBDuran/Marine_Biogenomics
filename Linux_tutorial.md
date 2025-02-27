@@ -132,11 +132,18 @@ ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory02 directory03
 En linux es importante movernos entre directorios, por lo que nosotros podemos morvernos entre rutas con línea de comando, para ello hay dos maneras:
 1. Ruta absoluta
 2. Ruta relativa
+
 La **Ruta absoluta** es una dirección completa y específica que indica la ubicación exacta de un archivo o directorio. Las rutas absolutas siempre comienzan desde el directorio raíz, que se representa con una barra diagonal hacia adelante ("/") y termina con el destino final. **No importa desde qué ubicación estés trabajando, una ruta absoluta siempre te llevará a la misma ubicación que proporcionas**.
 
+Un ejemplo de ruta absoluta de la imagen de abajo es:
 
+ ```bash 
+ /home/peter/work
+```
 
-
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/09fb1732-7e12-46a0-9704-86fec6def9d1" width="500">
+</p> 
 
 
 ## cd
