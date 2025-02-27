@@ -5,7 +5,7 @@ La mayoría de los integrantes del laboratorio de Marine Biogenomics utilizamos 
 
 <p aling ="center">
   
-![image](https://github.com/user-attachments/assets/e0e4ef88-96b5-4fbd-a80f-a7a442128c42) alt="Imagen" width="500"
+![image](https://github.com/user-attachments/assets/e0e4ef88-96b5-4fbd-a80f-a7a442128c42)
 
 </p>
 
