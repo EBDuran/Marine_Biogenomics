@@ -75,7 +75,7 @@ El sistema operativo de Linux tiene una estructura y organización única como s
 # Linea de comandos basicos
 Vamos a aprender a utilizar los comando más básiscos de linux para quepodamos movernos entre direcrtorios, carpetas y gestionar archivos (crear, mover, eliminar y copiar), notar que la mayoría de los comandos son abreviaciones en inglés de acciones que estamos indicando.
 ## pwd
-pwd (print working directory) es el comando que nos permite conocer la ruta en la que nos encontramos. Este comando es útil para verificar nuestra ruta de un archivo especíca.
+**pwd** (print working directory) es el comando que nos permite conocer la ruta en la que nos encontramos. Este comando es útil para verificar nuestra ruta de un archivo especíca.
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/62a287a3-6006-4918-8368-60ddae9976c2" width="500">
@@ -84,7 +84,7 @@ pwd (print working directory) es el comando que nos permite conocer la ruta en l
 Como podemos ver en la imagen estoy en mi *home* dentro del usuario *ebduran*
 
 ## ls
-ls (list) es un comando que nos permite enlistar los archivos y directorios que estén en la ruta donde nos encontramos. Este comando es útil apra verificar los archivos que tenemos en cada carpeta, algo así como en windows cuando entramos a una carpeta y ya vemos los arvhivos denrtro de la misma. 
+**ls** (list) es un comando que nos permite enlistar los archivos y directorios que estén en la ruta donde nos encontramos. Este comando es útil apra verificar los archivos que tenemos en cada carpeta, algo así como en windows cuando entramos a una carpeta y ya vemos los arvhivos denrtro de la misma. 
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/0358f54f-0ff2-4c48-b32e-5c7abf975bd7" width="500">
@@ -92,6 +92,30 @@ ls (list) es un comando que nos permite enlistar los archivos y directorios que 
 
 Como podemos ver en la imagen enlisté con ***ls*** los archivos que tengo en **ebduran**, en este caso tengo dos carpetas que se llaman ***Documentos*** y ***miniconda3***. 
 
+Dentro de cada comando pueden existir argumentos  (se escribe -el argumento) para dar instrucciones de acciones complementarias o específicas de un comando, para el caso de **ls**, las más usadas son:
+1. **ls -l**: Muestra la lista en formato largo, que incluye permisos, número de enlaces, propietario, grupo, tamaño y fecha de modificación.
+  
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/f98419e4-e373-4014-bbaf-beacdce340dd" width="500">
+</p> 
 
+2. **ls -lh** Muestra los tamaños de los archivos en KB, MB, GB, en este caso estamos combinando -l y h para tener el argumento -lh
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/c4053cc3-13b6-45e5-a762-fa6ed688edcf" width="500">
+</p> 
+
+ven las diferencias entre -l y -lh?
+
+3. Para ver todos los argumentos posibles de cada comando podemos utilizar **-help**, el cual nos imprime todos los argumentos posibles, para el caso de **ls** se muestra en la siguient imagen.
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/8d556a8a-b252-47ab-a06e-fbe86266c570" width="500">
+</p> 
+
+   
+
+
+   
 
 
