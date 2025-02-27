@@ -148,7 +148,7 @@ Un ejemplo de ruta absoluta para llegar al directortio llamado `work` de la imag
 Una **ruta relativa** indica la ubicación de un archivo o directorio **en relación con el directorio actual en el que te encuentras trabajando**.
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/ff21524c-407b-48a2-9bf6-2e016d0e140e" width="500">
+    <img src="https://github.com/user-attachments/assets/7440ea92-3de9-4cfc-992e-dd9097e4716c" width="500">
 </p> 
 
 ## cd
