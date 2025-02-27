@@ -79,6 +79,7 @@ pwd (print working directory) es el comando que nos permite conocer la ruta en l
 <p align="center">
     <img src="https://github.com/user-attachments/assets/62a287a3-6006-4918-8368-60ddae9976c2" width="500">
 </p>
+
 Como podemos ver en la imagen estoy en mi *home* dentro del usuario *ebduran*
 
 
