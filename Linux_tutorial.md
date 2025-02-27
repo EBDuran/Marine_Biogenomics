@@ -178,6 +178,7 @@ Si nos queremos regresar al directorio de mi usuario debemos utilizar `cd ..`  y
 Otros atajos que son importantes:
 
 `cd ~` Te lleva al directorio de inicio del usuario en mi caso a /home/ebduran.
+
 `cd /` Te lleva al directorio raíz del sistema.
 
    
