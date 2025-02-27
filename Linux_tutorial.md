@@ -73,10 +73,10 @@ El sistema operativo de Linux tiene una estructura y organización única como s
 
 6. *`/usr`*: Archivos de usuario (programas y documentación).
 
-# Linea de comandos basicos
-Vamos a aprender a utilizar los comando más básiscos de linux para quepodamos movernos entre direcrtorios, carpetas y gestionar archivos (crear, mover, eliminar y copiar), notar que la mayoría de los comandos son abreviaciones en inglés de acciones que estamos indicando.
-## pwd
-**pwd** (print working directory) es el comando que nos permite conocer la ruta en la que nos encontramos. Este comando es útil para verificar nuestra ruta de un archivo especíca.
+# Línea de comandos basicos
+Vamos a aprender a utilizar los comando más básiscos de linux para que podamos movernos entre direcrtorios, carpetas y gestionar archivos (crear, mover, eliminar y copiar), notar que la mayoría de los comandos son abreviaciones en inglés de acciones que estamos indicando.
+## pwd (print working directory)
+**`pwd`**  es el comando que nos permite conocer la ruta en la que nos encontramos. Este comando es útil para verificar nuestra ruta de un archivo especíca.
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/62a287a3-6006-4918-8368-60ddae9976c2" width="500">
@@ -84,8 +84,8 @@ Vamos a aprender a utilizar los comando más básiscos de linux para quepodamos 
 
 Como podemos ver en la imagen estoy en mi *home* dentro del usuario *ebduran*
 
-## ls
-**ls** (list) es un comando que nos permite enlistar los archivos y directorios que estén en la ruta donde nos encontramos. Este comando es útil apra verificar los archivos que tenemos en cada carpeta, algo así como en windows cuando entramos a una carpeta y ya vemos los arvhivos denrtro de la misma. 
+## ls (list)
+**`ls`**  es un comando que nos permite enlistar los archivos y directorios que estén en la ruta donde nos encontramos. Este comando es útil apra verificar los archivos que tenemos en cada carpeta, algo así como en windows cuando entramos a una carpeta y ya vemos los arvhivos denrtro de la misma. 
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/0358f54f-0ff2-4c48-b32e-5c7abf975bd7" width="500">
@@ -114,9 +114,9 @@ ven las diferencias entre -l y -lh?
     <img src="https://github.com/user-attachments/assets/8d556a8a-b252-47ab-a06e-fbe86266c570" width="500">
 </p> 
 
-## mkdir
+## mkdir (make directory)
 
-**`mkdir`** (make directory) es un comando que nos permite crear directorios, como cuando en windows creamos carpetas. Este comando lo vamos a utilizar mucho para organizar todos nuestros archivos. Para crear un directorio debemos poner el comando un espacio y el nombre del direcotrio a crear
+**`mkdir`**  es un comando que nos permite crear directorios, como cuando en windows creamos carpetas. Este comando lo vamos a utilizar mucho para organizar todos nuestros archivos. Para crear un directorio debemos poner el comando un espacio y el nombre del direcotrio a crear
 
 ```bash 
 ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory01
@@ -126,6 +126,7 @@ En este caso creamos el directorio ***directory01***, si queremos hacer varios d
 ```bash
 ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory02 directory03
 ```
+Si hacemos un list ¿cúantos directorios tenemos?
 
 ## Rutas
 
@@ -162,9 +163,18 @@ si quieres ir desde ``peter`` que es ``.`` a papers es:
 ``./
 ``
 
-## cd
-**`cd`** (change directory) este comando nos permite camboar de directorios. Puedes moverte a un directorio 
+## cd (change directory) 
+**`cd`** este comando nos permite cambiar de directorios. Puedes moverte a un directorio específico con rutas absolutas o relativas. Por el momento estamos en el directorio del usuario en mi caaso ebduran. Si nos queremos mover al directorio directory01 podemos utilizar el comando `cd` , espacio y el nombre del directorio objetivo.
+**Consejo**: siempre que vayas entrar a una carpeta en lugar de escribirla completamente, escribe las primeras letras y utiliza la tecla `TAB` para autocompletar el nombre. 
+``bash 
+cd directory01
+``
+Si nos queremos regresar al directorio de mi usuario debemos utilizar `cd ..`  ya que es el directorio superior a directory01 o tambien puedes escribir la ruta absolita `cd /home/ebduran`.
 
+Otros atajos que son importantes:
+
+`cd ~` Te lleva al directorio de inicio del usuario en mi caso a /home/ebduran.
+`cd /` Te lleva al directorio raíz del sistema.
 
    
 
