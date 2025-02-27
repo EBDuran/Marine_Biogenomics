@@ -198,7 +198,7 @@ mv directory01 reference_genome
 Recuerden ver donde estamos (ya lo vimos) y como entrar al directorio `reference_genome`.
 
 ```bash
-wget wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/001/939/145/GCA_001939145.1_ASM193914v1/GCA_001939145.1_ASM193914v1_genomic.fna.gz
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/001/939/145/GCA_001939145.1_ASM193914v1/GCA_001939145.1_ASM193914v1_genomic.fna.gz
 ```
 Esto tardará unos minutos. Si todo salió bien tendremos el genoma de referencia de *Symbiodinium microadriaticum* desde NCBI. Una vez descargado vean cual es el tamaño del archivo (ya lo vimos anteriormente).
 
@@ -207,6 +207,13 @@ Repitamos el comando `wget` pero esta vez vamos a descargar otro genoma de refer
 ```bash
 wget -O cladocopium_genome.fna.gz https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/947/184/155/GCA_947184155.2_Cgoreaui_SCF055-01_v2.1/GCA_947184155.2_Cgoreaui_SCF055-01_v2.1_genomic.fna.gz
 ```
+
+Ahora tenemos dos genomas de referencia de simbiontes de corales, pero el nombre del archivo de *Symbiodinium microadriaticum* es muy largo, entonces cambiemos el nombre a `simbiodinium_genome.fna.gz` ya saben como. Utilicen `TAB` para poder completar el nombre automáticamente.
+
+## descomprimir con gunzip
+
+Los genomas de referencia están comprimidos por eso tienen la terminación `.gz`. Hay que descomprimirlos para ver su contenido con el comando `gunzip` y el documento a descomprmir
+
 
 
 
