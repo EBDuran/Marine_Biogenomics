@@ -75,12 +75,23 @@ El sistema operativo de Linux tiene una estructura y organización única como s
 # Linea de comandos basicos
 Vamos a aprender a utilizar los comando más básiscos de linux para quepodamos movernos entre direcrtorios, carpetas y gestionar archivos (crear, mover, eliminar y copiar), notar que la mayoría de los comandos son abreviaciones en inglés de acciones que estamos indicando.
 ## pwd
-pwd (print working directory) es el comando que nos permite conocer la ruta en la que nos encontramos. Este comando es útil para verificar nuestra ruta de archivo 
+pwd (print working directory) es el comando que nos permite conocer la ruta en la que nos encontramos. Este comando es útil para verificar nuestra ruta de un archivo especíca.
+
 <p align="center">
     <img src="https://github.com/user-attachments/assets/62a287a3-6006-4918-8368-60ddae9976c2" width="500">
 </p>
 
 Como podemos ver en la imagen estoy en mi *home* dentro del usuario *ebduran*
+
+## ls
+ls (list) es un comando que nos permite enlistar los archivos y directorios que estén en la ruta donde nos encontramos. Este comando es útil apra verificar los archivos que tenemos en cada carpeta, algo así como en windows cuando entramos a una carpeta y ya vemos los arvhivos denrtro de la misma. 
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/0358f54f-0ff2-4c48-b32e-5c7abf975bd7" width="500">
+</p>
+
+
+
 
 
 
