@@ -49,9 +49,9 @@ El promt es es el texto que aparece en la consola para indicar que el sistema es
 ```bash
 ebduran@LAPTOP-IFTA3VOI:~$
 ```
-1.- *ebduran* es el usurario
-2.- *@LAPTOP-IFTA3VOI* es el nombre de la PC o dirección IP de algún servidor
-2.- *~$*  el directorio actual en el que nos encontramos, normalmente es el home 
+1. *ebduran* es el usurario
+2. *@LAPTOP-IFTA3VOI* es el nombre de la PC o dirección IP de algún servidor
+3. *~$*  el directorio actual en el que nos encontramos, normalmente es el home 
 
 ## Organización de Unix o linux 
 El sistema operativo de Linux tiene una estructura y organización única como se muestra en la imagen siguiente:
@@ -60,7 +60,17 @@ El sistema operativo de Linux tiene una estructura y organización única como s
     <img src="https://github.com/user-attachments/assets/c614825f-f2da-4d58-b515-32c7583473a2" width="500">
 </p>
 
+1. */*: Raíz del sistema de archivos.
 
+2. */bin*: Archivos binarios esenciales.
+
+3. */etc*: Archivos de configuración.
+
+4. ***/home***: Directorios personales de los usuarios, es donde vamos a trabajar
+
+5. */var*: Archivos variables como logs.
+
+6. */usr*: Archivos de usuario (programas y documentación).
 
 
 
