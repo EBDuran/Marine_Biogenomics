@@ -154,14 +154,12 @@ Una **ruta relativa** indica la ubicación de un archivo o directorio **en relac
 
 Si quieres ir desde  ``peter`` a ``home`` el comando es:
 
-``bash
-..
+``..
 ``
 
 si quieres ir desde ``peter`` que es ``.`` a papers es:
 
-``bash
-./
+``./
 ``
 
 ## cd
