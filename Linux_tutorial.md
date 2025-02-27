@@ -43,6 +43,7 @@ La terminal es una interfaz de línea de comandos que permite a los usuarios int
 <p align="center">
     <img src="https://github.com/user-attachments/assets/4572be39-4f92-4bcb-b7a9-7b89991b929d" width="500">
 </p>
+
 # Prompt 
 
 El promt es es el texto que aparece en la consola para indicar que el sistema está listo para recibir una línea de comando:
@@ -112,6 +113,21 @@ ven las diferencias entre -l y -lh?
 <p align="center">
     <img src="https://github.com/user-attachments/assets/8d556a8a-b252-47ab-a06e-fbe86266c570" width="500">
 </p> 
+
+## mkdir
+
+**mkdir** (make directory) es un comando que nos permite crear directorios, como cuando en windows creamos carpetas. Este comando lo vamos a utilizar mucho para organizar todos nuestros archivos. Para crear un directorio devemos poner el comando un espacio y el nombre del direcotrio a crear
+
+```bash 
+ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory01
+```
+En este caso creamos el directorio ***directory01***, si queremos hacer varios directorios al mismo tiempo podemos escribir el siguiente comando:
+
+```bash
+ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory02 directory03
+```
+
+
 
    
 
