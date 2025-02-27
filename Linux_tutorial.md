@@ -116,17 +116,31 @@ ven las diferencias entre -l y -lh?
 
 ## mkdir
 
-**mkdir** (make directory) es un comando que nos permite crear directorios, como cuando en windows creamos carpetas. Este comando lo vamos a utilizar mucho para organizar todos nuestros archivos. Para crear un directorio debemos poner el comando un espacio y el nombre del direcotrio a crear
+**`mkdir`** (make directory) es un comando que nos permite crear directorios, como cuando en windows creamos carpetas. Este comando lo vamos a utilizar mucho para organizar todos nuestros archivos. Para crear un directorio debemos poner el comando un espacio y el nombre del direcotrio a crear
 
 ```bash 
 ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory01
 ```
-En este caso creamos el directorio ***directory01***, si queremos hacer varios directorios al mismo cada directorio debe estar separado por espacios:
+En este caso creamos el directorio ***directory01***, si queremos hacer varios directorios, cada uno de ellos debe estar separado por espacios:
 
 ```bash
 ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory02 directory03
 ```
 
+## Rutas
+
+En linux es importante movernos entre directorios, por lo que nosotros podemos morvernos entre rutas con línea de comando, para ello hay dos maneras:
+1. Ruta absoluta
+2. Ruta relativa
+La **Ruta absoluta** es una dirección completa y específica que indica la ubicación exacta de un archivo o directorio. Las rutas absolutas siempre comienzan desde el directorio raíz, que se representa con una barra diagonal hacia adelante ("/") y termina con el destino final. **No importa desde qué ubicación estés trabajando, una ruta absoluta siempre te llevará a la misma ubicación que proporcionas**.
+
+
+
+
+
+
+## cd
+**`cd`** (change directory) este comando nos permite camboar de directorios. Puedes moverte a un directorrio 
 
 
    
