@@ -2,8 +2,9 @@
 ## Instalación de Ubuntu en Windows
 La mayoría de los integrantes del laboratorio de Marine Biogenomics utilizamos Windows como sistema operativo, por lo que debemos utilizar el subsitiema linux con una distribución Linux (GNU/Linux), conocida coloquialmente como "distro". Los usuarios Mac no necesitan de una distro ya que su terminal ya tiene GNU/Linux nativo. Para instalar Ubuntu como distro en Windows, debemos ir a la Microsoft Store, escribir "Ubuntu" en el buscador, seleccionar e instalar la primera opción como se muestra en la figura.
 
-![WhatsApp Image 2025-02-26 at 18 13 10_452bfd51](https://github.com/user-attachments/assets/132584d2-2868-422a-8333-7d0fb77ee7a9)
-
+<p align="center">
+    <img src="![Ubuntu](https://github.com/user-attachments/assets/caab8321-2d24-49a6-9a77-fa785c7c22e5)" alt="Imagen" width="500">
+</p>
 
 # Problemas comunes
 Si al abrir  la aplicación te sale el siguiente problema 
