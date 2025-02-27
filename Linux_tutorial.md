@@ -7,10 +7,29 @@ La mayoría de los integrantes del laboratorio de Marine Biogenomics utilizamos 
 </p>
 
 # Problemas comunes
-Si al abrir  la aplicación te sale el siguiente problema 
+Si al abrir  la aplicación te sale el error siguiente:
+```bash
+Installing, this may take a few minutes...
+WslRegisterDistribution failed with error: 0x8007019e
+Error: 0x8007019e The Windows Subsystem for Linux has not been enabled.
+
+Press any key to continue...
+```
+Tienes que dirigirte al buscador de window escribir Windows Powershell para entrar al shell de windows, luego escribir el diguiente comando
+
+```bash
+wsl --install
+```
+Esto te instalará el subsistema para windows. Una vez terminada la inslación debes reiniciar la máquina personal. Posteriormente abres de nuevo el powershell de windows y escribe:
+
+```
+wsl
+```
+Te descargará las actualizaciones y una vez terminadas ya puedes entrar a la aplicación de ubuntu. Deberías de ver tu sheel de linux como al siguiente imagen:
+
 
 <p align="center">
-    <img src="![WhatsApp Image 2025-02-26 at 18 13 10_68445ea8](https://github.com/user-attachments/assets/dcbd9d4f-506e-4a08-92c2-a81a0dd90799)" alt="Imagen" width="500">
+    <img src="https://github.com/user-attachments/assets/bff1f5d8-4916-4d23-ab3d-2f878b58a1f1" width="500">
 </p>
 
 
