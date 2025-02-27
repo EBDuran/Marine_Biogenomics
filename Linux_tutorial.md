@@ -90,7 +90,7 @@ ls (list) es un comando que nos permite enlistar los archivos y directorios que 
     <img src="https://github.com/user-attachments/assets/0358f54f-0ff2-4c48-b32e-5c7abf975bd7" width="500">
 </p>
 
-
+Como podemos ver en la imagen enlisté con ***ls*** los archivos que tengo en **ebduran**, en este caso tengo dos carpetas que se llaman ***Documentos*** y ***miniconda3***. 
 
 
 
