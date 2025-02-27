@@ -116,12 +116,12 @@ ven las diferencias entre -l y -lh?
 
 ## mkdir
 
-**mkdir** (make directory) es un comando que nos permite crear directorios, como cuando en windows creamos carpetas. Este comando lo vamos a utilizar mucho para organizar todos nuestros archivos. Para crear un directorio devemos poner el comando un espacio y el nombre del direcotrio a crear
+**mkdir** (make directory) es un comando que nos permite crear directorios, como cuando en windows creamos carpetas. Este comando lo vamos a utilizar mucho para organizar todos nuestros archivos. Para crear un directorio debemos poner el comando un espacio y el nombre del direcotrio a crear
 
 ```bash 
 ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory01
 ```
-En este caso creamos el directorio ***directory01***, si queremos hacer varios directorios al mismo tiempo podemos escribir el siguiente comando:
+En este caso creamos el directorio ***directory01***, si queremos hacer varios directorios al mismo cada directorio debe estar separado por espacios:
 
 ```bash
 ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory02 directory03
