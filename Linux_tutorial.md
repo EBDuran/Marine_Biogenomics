@@ -181,6 +181,19 @@ Otros atajos que son importantes:
 
 `cd /` Te lleva al directorio raíz del sistema.
 
+## mv (move/rename)
+El comando `mv` nos ayuda a mover archivos de un directorio a otro. Tambien sirve para renombar directorios o archivos.
+Para mover los archivos debemos escribir `mv`  epacio `el documento a mover`, espacio y  el directorio al cual quieres mover, ya sea con ruta absoluta o relativa.
+
+1. Para renombrar
+ Vamos a renombrar el directorio `directory01` con el nombre de `reference_genome`, como ven en lugar de espacios separa las palabras con `_`
+
+```bash
+mv directory01 reference_genome
+```
+
+
+
    
 
 
