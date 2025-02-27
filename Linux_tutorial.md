@@ -50,9 +50,9 @@ El promt es es el texto que aparece en la consola para indicar que el sistema es
 ```bash
 ebduran@LAPTOP-IFTA3VOI:~$
 ```
-1. *ebduran* es el usurario
-2. *@LAPTOP-IFTA3VOI* es el nombre de la PC o dirección IP de algún servidor
-3. *~$*  el directorio actual en el que nos encontramos, normalmente es el home 
+1. *`ebduran`* es el usurario
+2. *`@LAPTOP-IFTA3VOI`* es el nombre de la PC o dirección IP de algún servidor
+3. *`~$`*  el directorio actual en el que nos encontramos, normalmente es el home 
 
 # Organización de Unix o linux 
 El sistema operativo de Linux tiene una estructura y organización única como se muestra en la imagen siguiente:
@@ -61,17 +61,17 @@ El sistema operativo de Linux tiene una estructura y organización única como s
     <img src="https://github.com/user-attachments/assets/c614825f-f2da-4d58-b515-32c7583473a2" width="500">
 </p>
 
-1. */*: Raíz del sistema de archivos.
+1. *`/`*: Raíz del sistema de archivos.
 
-2. */bin*: Archivos binarios esenciales.
+2. *`/bin`*: Archivos binarios esenciales.
 
-3. */etc*: Archivos de configuración.
+3. *`/etc`*: Archivos de configuración.
 
-4. ***/home***: Directorios personales de los usuarios, es donde vamos a trabajar
+4. ***`/home`***: Directorios personales de los usuarios, es donde vamos a trabajar
 
-5. */var*: Archivos variables como logs.
+5. *`/var`*: Archivos variables como logs.
 
-6. */usr*: Archivos de usuario (programas y documentación).
+6. *`/usr`*: Archivos de usuario (programas y documentación).
 
 # Linea de comandos basicos
 Vamos a aprender a utilizar los comando más básiscos de linux para quepodamos movernos entre direcrtorios, carpetas y gestionar archivos (crear, mover, eliminar y copiar), notar que la mayoría de los comandos son abreviaciones en inglés de acciones que estamos indicando.
@@ -94,13 +94,13 @@ Como podemos ver en la imagen estoy en mi *home* dentro del usuario *ebduran*
 Como podemos ver en la imagen enlisté con ***ls*** los archivos que tengo en **ebduran**, en este caso tengo dos carpetas que se llaman ***Documentos*** y ***miniconda3***. 
 
 Dentro de cada comando pueden existir argumentos  (se escribe -el argumento) para dar instrucciones de acciones complementarias o específicas de un comando, para el caso de **ls**, las más usadas son:
-1. **ls -l**: Muestra la lista en formato largo, que incluye permisos, número de enlaces, propietario, grupo, tamaño y fecha de modificación.
+1. **`ls -l`**: Muestra la lista en formato largo, que incluye permisos, número de enlaces, propietario, grupo, tamaño y fecha de modificación.
   
 <p align="center">
     <img src="https://github.com/user-attachments/assets/f98419e4-e373-4014-bbaf-beacdce340dd" width="500">
 </p> 
 
-2. **ls -lh** Muestra los tamaños de los archivos en KB, MB, GB, en este caso estamos combinando -l y h para tener el argumento -lh
+2. **`ls -lh`** Muestra los tamaños de los archivos en KB, MB, GB, en este caso estamos combinando -l y h para tener el argumento -lh
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/c4053cc3-13b6-45e5-a762-fa6ed688edcf" width="500">
