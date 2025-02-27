@@ -160,7 +160,7 @@ Si quieres ir desde  ``peter`` a ``home`` el comando es:
 
 si quieres ir desde ``peter`` que es ``.`` a papers es:
 
-``./
+``./papers
 ``
 
 ## cd (change directory) 
