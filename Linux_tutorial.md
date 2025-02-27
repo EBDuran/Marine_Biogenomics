@@ -145,6 +145,11 @@ Un ejemplo de ruta absoluta para llegar al directortio llamado `work` de la imag
     <img src="https://github.com/user-attachments/assets/9a5fa948-7938-47ba-bee2-229129e7b58a" width="500">
 </p> 
 
+Una **ruta relativa** indica la ubicación de un archivo o directorio **en relación con el directorio actual en el que te encuentras trabajando**.
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/ff21524c-407b-48a2-9bf6-2e016d0e140e" width="500">
+</p> 
 
 ## cd
 **`cd`** (change directory) este comando nos permite camboar de directorios. Puedes moverte a un directorrio 
