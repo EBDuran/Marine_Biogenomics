@@ -4,5 +4,5 @@
 
 # Tutoriales de Bioinformática para los integrantes de Marine Biogenomics 
 
-Este es un repositorio con tutoriales de bioinformática para los integrantes del laboratorio de Marine Biogenomics liderado por el Dr. David A. Paz-García. El primer tutorial es para el uso de líneas de comando en Linux que se encuentra dentro del repositorio Linux_tutorial.md.
+Este es un repositorio con tutoriales de bioinformática para los integrantes del laboratorio de Marine Biogenomics liderado por el Dr. David A. Paz-García. El primer tutorial es para el uso de líneas de comando en Linux que se encuentra dentro del repositorio Linux_tutorial.md. 
 
