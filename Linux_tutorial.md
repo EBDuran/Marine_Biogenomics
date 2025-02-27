@@ -166,11 +166,12 @@ si quieres ir desde ``peter`` que es ``.`` a papers es:
 ## cd (change directory) 
 **`cd`** este comando nos permite cambiar de directorios. Puedes moverte a un directorio específico con rutas absolutas o relativas. Por el momento estamos en el directorio del usuario en mi caaso ebduran. Si nos queremos mover al directorio directory01 podemos utilizar el comando `cd` , espacio y el nombre del directorio objetivo.
 
-**Consejo**: siempre que vayas entrar a una carpeta en lugar de escribirla completamente, escribe las primeras letras y utiliza la tecla `TAB` para autocompletar el nombre. 
-
-``bash 
+``
 cd directory01
 ``
+
+**Consejo**: siempre que vayas entrar a una carpeta en lugar de escribirla completamente, escribe las primeras letras y utiliza la tecla `TAB` para autocompletar el nombre. 
+
 
 Si nos queremos regresar al directorio de mi usuario debemos utilizar `cd ..`  ya que es el directorio superior a directory01 o tambien puedes escribir la ruta absolita `cd /home/ebduran`.
 
