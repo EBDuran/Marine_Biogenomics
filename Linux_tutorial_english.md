@@ -132,6 +132,205 @@ In this case, we created the directory ***directory01***. If we want to create m
 ebduran@LAPTOP-IFTA3VOI:~$ mkdir directory02 directory03
 ```
 
+## Paths
+
+In Linux, it is important to move between directories, so we can navigate paths using the command line in two ways:
+
+1. Absolute Path
+
+2. Relative Path
+
+An **Absolute Path** is a complete and specific path that indicates the exact location of a file or directory. Absolute paths always start from the root directory, represented by a forward slash `/`, and  the final destination. **No matter where you are working from, an absolute path will always take you to the provided location**.
+
+An example of an absolute path to reach the directory named work in the image below is:
+ ```bash 
+ /home/peter/work
+```
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/9a5fa948-7938-47ba-bee2-229129e7b58a" width="500">
+</p> 
+
+A **Relative Path** indicates the location of a file or directory **in relation to the current directory you are working in**. Unlike an absolute path, which starts from the root directory `/`, a relative path starts from the current location represented by `.` or from the parent or upper directory `..`. If you want to move to a higher folder from where you are located, you need to use directory separators `../..`. In the following image, the relative paths are shown from the directory peter.
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/7440ea92-3de9-4cfc-992e-dd9097e4716c" width="500">
+</p> 
+
+If you want to go from `peter` to `home` the command is:
+
+``..
+:
+
+``..
+``
+
+If you want to go from `peter`, which is represented by `.`, to papers, the command is:
+
+``./papers
+``
+
+## cd (change directory) 
+
+**`cd`** this command allows us to change directories. You can move to a specific directory using absolute or relative paths. Currently, we are in the user's directory, in my case ebduran. If we want to move to the directory directory01, we can use the `cd` command, space, and the target directory name.
+
+
+``` bash
+cd directory01
+```
+
+**Tip**: whenever you want to enter a folder, instead of typing the entire name, type the first few letters and use the `TAB` key to autocomplete the name.
+
+If we want to return to my user's directory, we should use `cd ..` because it is the parent directory of directory01, or you can also write the absolute path `cd /home/ebduran`.
+
+``` bash
+cd ..
+```
+
+Other important shortcuts:
+
+`cd ~` Takes you to the user's home directory, in my case to /home/ebduran.
+
+`cd /` Takes you to the root directory of the system.
+
+
+In which directory are we currently?
+
+
+## mv (move/rename)
+The `mv` command helps us move files from one directory to another. It also serves to rename directories or files.
+To move files, we need to type `mv`, space, `the document to move`, space, and the directory to which you want to move it, either with an absolute or relative path.
+
+1. To rename: Let's rename the directory `directory01` to `reference_genome`, using underscores `_` to separate words instead of spaces.
+
+```bash
+mv directory01 reference_genome
+```
+
+2. To move a document: Currently, we don't have any files, but to move files, you need to use the following command:
+
+``` bash
+mv tu_archivo destino(en ruta absoluta o relativa)
+```
+   
+## wget (World Wide Web" y "get")
+
+`wget` is a command that allows us to download files from the web using a URL (Uniform Resource Locators). This command is useful because we can download sequences from NCBI. Let's download the reference genome sequence of a coral symbiont into the directory we created named `reference_genome`.
+
+Remember to check where we are (we have already done this) and how to enter the `reference_genome` directory.
+
+```bash
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/001/939/145/GCA_001939145.1_ASM193914v1/GCA_001939145.1_ASM193914v1_genomic.fna.gz
+```
+This will take a few minutes. If everything goes well, we will have the reference genome of *Symbiodinium microadriaticum* from NCBI. Once downloaded, check the file size (we have already seen how to do this).
+
+Let's repeat the `wget` command, but this time we will download another reference genome of *Cladocopium goreaui*. We will also use the `-0` argument to change the name of the downloaded file, so we will change the name to `cladocopium_genome.fna.gz`.
+
+
+```bash
+wget -O cladocopium_genome.fna.gz https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/947/184/155/GCA_947184155.2_Cgoreaui_SCF055-01_v2.1/GCA_947184155.2_Cgoreaui_SCF055-01_v2.1_genomic.fna.gz
+```
+
+Now we have two reference genomes of coral symbionts, but the file name of *Symbiodinium microadriaticum* is too long, so let's change it to `simbiodinium_genome.fna.gz`. You already know how. Use `TAB` to autocomplete the name automatically.
+
+## Decompressing with gunzip
+
+The reference genomes are compressed, which is why they have the `.gz` extension. We need to decompress them to see their content using the `gunzip` command and the file to decompress. In this case, we are going to decompress `simbiodinium_genome.fna.gz`.
+
+
+```bash
+gunzip simbiodinium_genome.fna.gz
+```
+
+Once finished, check the size of the decompressed document (we already know how). Do the same with the file `cladocopium_genome.fna.gz`.
+
+## cat to concatenate files
+
+`cat` is a command that allows us to concatenate files. On this occasion, we will also use `>` to redirect the concatenation content to a new file. In this case, we will concatenate the decompressed reference genome files, and the content will be redirected to a file named `symbion_genome_concatenade.fna` with the following command:
+
+
+```bash
+cat  simbiodinium_genome.fna cladocopium_genome.fna > symbiont_genome_concatenade.fna
+
+```
+
+## cp (Copy)
+
+Now we will copy the file `symbiont_genome_concatenade.fna` to another folder using the `cp` command. We move to the user's directory, rename `directory02` to `genome_conatenade`, and enter the folder. Now we copy the file located at `/home/userxx/reference_genome/symbiont_genome_concatenade.fna` with the following command (make sure to change your username!!!
+
+```bash
+cp /home/userxx/reference_genome/symbiont_genome_concatenade.fna ./
+```
+We list the files and if we see the file, the copy was successful. As you noticed, we used an absolute path. How would it be with a relative path?
+
+## Viewing the Content of Each File
+### Less
+The `less` command is used to interactively view the content of text files, allowing you to scroll up and down through the file. Let's review the file `symbiont_genome_concatenade.fna` with the following command:
+
+```bash
+less symbiont_genome_concatenade.fna
+```
+We should see something similar to this:
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/980e47aa-5790-4c7b-978b-ac230ec34636" width="500">
+</p>
+
+We can navigate up and down using the arrow keys on the keyboard. 
+To exit the text view, we use `q`.
+
+### head 
+`head` is used to display the first lines of a text file. By default, `head` shows the first 10 lines of the specified file. Let's see the first 10 lines of the file `symbiont_genome_concatenade.fna`.
+
+
+```bash
+head symbiont_genome_concatenade.fna
+```
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/3b02ca7e-9194-4c24-b4a0-0ff06d7e4ecf" width="500">
+</p>
+
+### tail
+`tail` is used to display the last lines of a text file. By default, `tail` shows the last 10 lines of the specified file. Let's see the last 10 lines of the file `symbiont_genome_concatenade.fna`.
+
+
+```bash
+tail symbiont_genome_concatenade.fna
+```
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/5e4b8a85-f721-4fa0-bd59-58d0df7a0eae" width="500">
+</p>
+
+For both `head` and `tail`, we can select the number of lines we want to observe using the `-n` argument followed by the number of lines you want to see. Let's see an example with `head`.
+
+
+``` bash
+head -n 2  symbiont_genome_concatenade.fna
+```
+
+This is what is displayed in the terminal:
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/b7a4a43b-ff35-40c4-8d3d-251ae571d343" width="500">
+</p>
+
+Now let's play with the `tail` command using different numbers of lines with `-n`.
+
+# End of the first tutorial for Linux commands, thank you for your attention!
+
+
+
+
+
+
+
+   
+
+
+   
+
 
 
    
