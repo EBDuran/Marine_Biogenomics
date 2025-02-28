@@ -191,7 +191,13 @@ Para mover los archivos debemos escribir `mv`  epacio `el documento a mover`, es
 ```bash
 mv directory01 reference_genome
 ```
+2. Mover documento
+Por el momento no tenemos ningun archivo, pero para mover archivos debes poner la siguiente línea de comando
 
+``` bash
+mv tu_archivo destino(en ruta absoluta o relativa)
+```
+   
 ## wget (World Wide Web" y "get")
 
 `wget` es un comando que nos permite descargar archivos de la web utilizando un URL(Uniform Resource Locators). Este comando es útil porque podemos descargar las secuencias desde NCBI. Vamos a descargar la secuencia del genoma de referencia de un simbionte coralino en el directorio que creamos llamada `reference_genome`.
@@ -210,9 +216,21 @@ wget -O cladocopium_genome.fna.gz https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/9
 
 Ahora tenemos dos genomas de referencia de simbiontes de corales, pero el nombre del archivo de *Symbiodinium microadriaticum* es muy largo, entonces cambiemos el nombre a `simbiodinium_genome.fna.gz` ya saben como. Utilicen `TAB` para poder completar el nombre automáticamente.
 
+## CP (copy)
+Hasta el momento hemos trabajado en la carpeta 
+
 ## descomprimir con gunzip
 
-Los genomas de referencia están comprimidos por eso tienen la terminación `.gz`. Hay que descomprimirlos para ver su contenido con el comando `gunzip` y el documento a descomprmir
+Los genomas de referencia están comprimidos por eso tienen la terminación `.gz`. Hay que descomprimirlos para ver su contenido con el comando `gunzip` y el documento a descomprmir. En este caso vamos a descomprimir `simbiodinium_genome.fna.gz`
+
+```bash
+gunzip simbiodinium_genome.fna.gz
+```
+Una vez terminado, checar el tamaño del documento descomprimido (ya sabemos como). Hacer lo mismo con el archivo `cladocopium_genome.fna.gz`
+
+
+
+
 
 
 
