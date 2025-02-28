@@ -185,14 +185,12 @@ Otros atajos que son importantes:
 El comando `mv` nos ayuda a mover archivos de un directorio a otro. Tambien sirve para renombar directorios o archivos.
 Para mover los archivos debemos escribir `mv`  epacio `el documento a mover`, espacio y  el directorio al cual quieres mover, ya sea con ruta absoluta o relativa.
 
-1. Para renombrar
- Vamos a renombrar el directorio `directory01` con el nombre de `reference_genome`, como ven en lugar de espacios separa las palabras con `_`.
+1. Para renombrar: Vamos a renombrar el directorio `directory01` con el nombre de `reference_genome`, como ven en lugar de espacios separa las palabras con `_`.
 
 ```bash
 mv directory01 reference_genome
 ```
-2. Mover documento
-Por el momento no tenemos ningun archivo, pero para mover archivos debes poner la siguiente línea de comando
+2. Mover documento: Por el momento no tenemos ningun archivo, pero para mover archivos debes poner la siguiente línea de comando
 
 ``` bash
 mv tu_archivo destino(en ruta absoluta o relativa)
@@ -216,8 +214,6 @@ wget -O cladocopium_genome.fna.gz https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/9
 
 Ahora tenemos dos genomas de referencia de simbiontes de corales, pero el nombre del archivo de *Symbiodinium microadriaticum* es muy largo, entonces cambiemos el nombre a `simbiodinium_genome.fna.gz` ya saben como. Utilicen `TAB` para poder completar el nombre automáticamente.
 
-## CP (copy)
-Hasta el momento hemos trabajado en la carpeta 
 
 ## descomprimir con gunzip
 
@@ -228,7 +224,25 @@ gunzip simbiodinium_genome.fna.gz
 ```
 Una vez terminado, checar el tamaño del documento descomprimido (ya sabemos como). Hacer lo mismo con el archivo `cladocopium_genome.fna.gz`
 
+## cat para concatenar documentos
 
+`cat` es un comando que nos permite concatenar documentos. En esta ocasión vamos tambien a utilizar `>` que nos permite redireccionar en un nuevo archivo el contendido de la concatenación. En este caso vamos a concatenar los documentos descomprimidos de los genomas de referencia y el contenido será redireccionado a un documento que se llame `symbion_genome_concatenade.fna` con la siguiente comando:
+
+```bash
+cat  simbiodinium_genome.fna cladocopium_genome.fna > symbiont_genome_concatenade.fna
+
+```
+
+## cp (Copy)
+
+Ahora vamos copiar el archivo `symbiont_genome_concatenade.fna` en otra carpeta con el comando `cp`, nos movemos al directorio del usurario, cambiamos el nombre de `directory02` a `genome_conatenade` y entramos a la carpteta, ahora copiamos el archivo que esta en `/home/userxx/reference_genome/symbiont_genome_concatenade.fna` con el siguiente comando, cambien su usurario!!!
+
+```bash
+cp /home/userxx/reference_genome/symbiont_genome_concatenade.fna ./
+```
+Enlistamos y si vemos el archivo la copia fue un exito. Como notarán utilizamos una ruta absoluta, ¿cómo sería con una ruta relativa?
+
+## Ver el contenido de cada 
 
 
 
