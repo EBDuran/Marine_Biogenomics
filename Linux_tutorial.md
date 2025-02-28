@@ -166,20 +166,26 @@ si quieres ir desde ``peter`` que es ``.`` a papers es:
 ## cd (change directory) 
 **`cd`** este comando nos permite cambiar de directorios. Puedes moverte a un directorio específico con rutas absolutas o relativas. Por el momento estamos en el directorio del usuario en mi caaso ebduran. Si nos queremos mover al directorio directory01 podemos utilizar el comando `cd` , espacio y el nombre del directorio objetivo.
 
-``
+``` bash
 cd directory01
-``
+```
 
 **Consejo**: siempre que vayas entrar a una carpeta en lugar de escribirla completamente, escribe las primeras letras y utiliza la tecla `TAB` para autocompletar el nombre. 
 
 
 Si nos queremos regresar al directorio de mi usuario debemos utilizar `cd ..`  ya que es el directorio superior a directory01 o tambien puedes escribir la ruta absoluta `cd /home/ebduran`.
 
+``` bash
+cd ..
+```
+
 Otros atajos que son importantes:
 
 `cd ~` Te lleva al directorio de inicio del usuario en mi caso a /home/ebduran.
 
 `cd /` Te lleva al directorio raíz del sistema.
+
+En que directorio estamos actualmente?
 
 ## mv (move/rename)
 El comando `mv` nos ayuda a mover archivos de un directorio a otro. Tambien sirve para renombar directorios o archivos.
