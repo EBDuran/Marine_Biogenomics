@@ -246,9 +246,9 @@ Ahora vamos copiar el archivo `symbiont_genome_concatenade.fna` en otra carpeta 
 ```bash
 cp /home/userxx/reference_genome/symbiont_genome_concatenade.fna ./
 ```
-Enlistamos y si vemos el archivo la copia fue un exito. Como notarán utilizamos una ruta absoluta, ¿cómo sería con una ruta relativa?
+Enlistamos y si vemos el archivo, la copia fue un exito. Como notarán utilizamos una ruta absoluta, ¿cómo sería con una ruta relativa?
 
-## Ver el contenido de cada 
+## Ver el contenido de cada archivo de texto
 ### Less
 El comando `less` se utiliza para visualizar el contenido de archivos de texto de manera interactiva, permitiéndote desplazarte hacia arriba y hacia abajo a través del archivo. Vamos a revisra el archivo `symbiont_genome_concatenade.fna` con el siguiente comando:
 
