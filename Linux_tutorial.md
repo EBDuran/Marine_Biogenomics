@@ -249,8 +249,57 @@ cp /home/userxx/reference_genome/symbiont_genome_concatenade.fna ./
 Enlistamos y si vemos el archivo la copia fue un exito. Como notarán utilizamos una ruta absoluta, ¿cómo sería con una ruta relativa?
 
 ## Ver el contenido de cada 
+### Less
+El comando `less` se utiliza para visualizar el contenido de archivos de texto de manera interactiva, permitiéndote desplazarte hacia arriba y hacia abajo a través del archivo. Vamos a revisra el archivo `symbiont_genome_concatenade.fna` con el siguiente comando:
 
+```bash
+less symbiont_genome_concatenade.fna
+```
+Debemos ver algo similar a esto:
 
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/980e47aa-5790-4c7b-978b-ac230ec34636" width="500">
+</p>
+
+Podemos desplazarnos con las flechas del tecldo hacia arriba y abajo
+Para salir del texto debemos utilizar `q`
+
+### head 
+`head`  se utiliza para mostrar las primeras líneas de un archivo de texto. Por defecto, head muestra las primeras 10 líneas del archivo especificado. Veamos las primeras 10 líneas del archivo `symbiont_genome_concatenade.fna`
+
+```bash
+head symbiont_genome_concatenade.fna
+```
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/3b02ca7e-9194-4c24-b4a0-0ff06d7e4ecf" width="500">
+</p>
+
+### tail
+`head`  se utiliza para mostrar las ultimas líneas de un archivo de texto. Por defecto, head muestra las primeras 10 líneas del archivo especificado. Veamos las últimas 10 líneas del archivo `symbiont_genome_concatenade.fna`
+
+```bash
+tail symbiont_genome_concatenade.fna
+```
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/5e4b8a85-f721-4fa0-bd59-58d0df7a0eae" width="500">
+</p>
+
+Tanto para `head` y `tail` podemos seleccionar el número de lineas que queremos observar con el argumento `-n` y el número de líneas que quieres ver. Veamos un ejemplo con `head`.
+
+``` bash
+head -n 2  symbiont_genome_concatenade.fna
+```
+Esto es lo que se muestra en la terminal:
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/b7a4a43b-ff35-40c4-8d3d-251ae571d343" width="500">
+</p>
+
+Ahora juguemos con el tail utilizando diferentes números de lines con `-n`.
+
+# Fin del primer tutorial para comandos de linux, gracias por su atención!
 
 
 
